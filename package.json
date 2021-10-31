@@ -1,0 +1,30 @@
+{
+  "name": "@higby/eleventy-images",
+  "version": "1.0.1",
+  "description": "Automatically add image dimensions to <img> tag to prevent layout shift",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/higby/eleventy-images.git"
+  },
+  "keywords": [
+    "eleventy",
+    "11ty",
+    "plugin",
+    "image"
+  ],
+  "author": "Branden Higby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/higby/eleventy-images/issues"
+  },
+  "homepage": "https://github.com/higby/eleventy-images#readme",
+  "dependencies": {
+    "jsdom": "^18.0.0",
+    "node-fetch": "^3.0.0",
+    "sharp": "^0.29.2"
+  }
+}
