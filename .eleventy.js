@@ -39,5 +39,7 @@ async function imageData(content, outputPath) {
 }
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addTransform("images", imageData);
+  if(process.env.ELEVENTY_ENV === "development") {
+    eleventyConfig.addTransform("images", imageData);
+  }
 };

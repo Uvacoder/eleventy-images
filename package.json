@@ -1,6 +1,6 @@
 {
   "name": "@higby/eleventy-images",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Automatically add image dimensions to <img> tag to prevent layout shift",
   "main": ".eleventy.js",
   "scripts": {
